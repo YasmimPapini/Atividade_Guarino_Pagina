@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d1d8d3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #75a3b1;
+}
+
+.banner {
+    width: 1110px;
+    height: 200px;
+    background-color: #c2a8c6; /* Cor temporária para visualizar o banner */
+    margin: 0 auto;
+}
+
+.cards-section {
+    width: 1110px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: #a67faa;
+}
+
+.card {
+    flex: 1;
+    background-color: rgb(247, 243, 243);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.double-banner-section {
+    width: 1110px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.banner-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.large-banner {
+    width: 540px;
+    height: 300px; /* Altura ajustada para um formato mais retangular */
+    background-color: #bfc7e3;
+    border-radius: 8px;
+}
+
+.three-cards-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.cards-container {
+    width: 1110px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background-color: #4f4fd0;
+}
+
+.large-card {
+    flex: 2;
+    background-color: rgb(148, 92, 204);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    margin: 0;
+}
+
+.small-card {
+    flex: 1;
+    background-color: rgb(197, 130, 210);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    margin: 0;
+}
+
+.large-card h3,
+.small-card h3 {
+    margin-bottom: 10px;
+    color: #92d3e9c2;
+    font-size: 18px;
+}
+
+.large-card p,
+.small-card p {
+    color: #666;
+    font-size: 14px;
+}
